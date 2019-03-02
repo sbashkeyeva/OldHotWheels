@@ -1,7 +1,39 @@
-<app-nav>
+
+<mat-drawer-container id="drawerContainer" style="height: 100%;" [hasBackdrop]="true">
+    <mat-drawer #drawer [mode]="over" id="drawer" style="width: 30%;">
+        
+
+                <mat-list>
+                    <h3 mat-subheader>Folders</h3>
+                    <mat-list-item>
+                        <button mat-raised-button>asdasdasd</button>
+                    </mat-list-item>
+                    <mat-divider></mat-divider>
+                    <h3 mat-subheader>Folders</h3>
+                    <mat-list-item>
+                        <button mat-raised-button>asdasdasd</button>
+                    </mat-list-item>
+                    <mat-divider></mat-divider>
+                    <h3 mat-subheader>Folders</h3>
+                    <mat-list-item>
+                        <button mat-raised-button>asdasdasd</button>
+                    </mat-list-item>
+                    <mat-divider></mat-divider>
+                
+                  </mat-list>
+                  
+
+
+    </mat-drawer>
+    <mat-drawer-content>
+            <app-nav>
+                </app-nav>
+            <section>
+                <router-outlet></router-outlet>
+            </section>
+            
+        <button mat-raised-button (click)="drawer.toggle()">Toggle drawer</button>
+    </mat-drawer-content>
+</mat-drawer-container>
   
-</app-nav>
-<section>
-    <router-outlet></router-outlet>
-</section>
 
