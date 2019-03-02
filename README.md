@@ -1,7 +1,7 @@
 members of team:
     1) Symbat Bashkeyeva - https://github.com/sbashkeyeva
     2) Bektemir Zhanaikhanov - https://github.com/Zhanaikhanov 
-    3) Alisher Baigazin - https://github.com/baigazin
+    3) Alisher Baigazin - https://github.com/alisherbaigazin
     4) Fatima Baltabaeva - https://github.com/fbx151
 
 Project name: HavchikDelivery
