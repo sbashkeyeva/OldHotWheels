@@ -1,0 +1,17 @@
+#bar{
+    position: absolute;
+    width: 319px;
+    height: 678px;
+    left: 42px;
+    top: 728px;
+
+    background: #FFFFFF;
+}
+.bar-link{
+
+    font-family: Cambria Math;
+    line-height: 20px;
+    font-size: 18px;
+
+    color: #000000;
+}
